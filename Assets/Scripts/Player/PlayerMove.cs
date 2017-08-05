@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour {
 
-	public float speed = 1000.0f;
+	public float speed = 1000f;
 	
 	// Update is called once per frame
 	private void Update () {
@@ -19,21 +19,30 @@ public class PlayerMove : MonoBehaviour {
 		// 1) XY plane of the device is mapped onto XZ plane
 		// 2) rotated 90 degrees around Y axis
 
-		Vector3 rotation = Input.acceleration;
+		Vector3 position = Input.acceleration;
 
-		rotation = Quaternion.Euler (90, 0, 0) * rotation;
+        position = Quaternion.Euler (90, 0, 0) * position;
 
-		dir.x = rotation.x;
-		dir.z = rotation.z;
+		dir.x = position.x;
+		dir.z = position.z;
 
-		// clamp acceleration vector to the unit sphere
-		if (dir.sqrMagnitude > 1)
+        /*dir.x = Input.GetAxis("Horizontal");
+        dir.z = Input.GetAxis("Vertical");*/
+        
+        // clamp acceleration vector to the unit sphere
+        if (dir.sqrMagnitude > 1)
 			dir.Normalize();
 
-		// Make it move 10 meters per second instead of 10 meters per frame...
-		dir *= Time.deltaTime;
+		// Make it move per frame...
+		dir *= Time.deltaTime * speed;
 
 		// Move object
-		transform.Translate (dir * speed, Space.World);
-	}
+		transform.Translate (dir, Space.World);
+        //rote object
+        transform.Rotate(new Vector3(
+            transform.rotation.x + (1000f * dir.z), 
+            transform.rotation.y, 
+            transform.rotation.z + (1000f * -dir.x)
+            ) * Time.deltaTime * 10f, Space.World);
+    }
 }
