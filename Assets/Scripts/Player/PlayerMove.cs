@@ -26,8 +26,8 @@ public class PlayerMove : MonoBehaviour {
 		dir.x = position.x;
 		dir.z = position.z;
 
-        /*dir.x = Input.GetAxis("Horizontal");
-        dir.z = Input.GetAxis("Vertical");*/
+        dir.x = Input.GetAxis("Horizontal");
+        dir.z = Input.GetAxis("Vertical");
         
         // clamp acceleration vector to the unit sphere
         if (dir.sqrMagnitude > 1)

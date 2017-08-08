@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Critters", "Critters.csproj", "{9318D5B2-33A7-E507-09D1-9E46E5EC32C5}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Critters", "Assembly-CSharp.csproj", "{831B0AC6-9F3E-9413-052A-63B96AE0A32C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9318D5B2-33A7-E507-09D1-9E46E5EC32C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9318D5B2-33A7-E507-09D1-9E46E5EC32C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9318D5B2-33A7-E507-09D1-9E46E5EC32C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9318D5B2-33A7-E507-09D1-9E46E5EC32C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831B0AC6-9F3E-9413-052A-63B96AE0A32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831B0AC6-9F3E-9413-052A-63B96AE0A32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831B0AC6-9F3E-9413-052A-63B96AE0A32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831B0AC6-9F3E-9413-052A-63B96AE0A32C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
