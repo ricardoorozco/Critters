@@ -4,7 +4,7 @@ Critt: El Conquistador, narrará una historia donde serás parte del ejército d
 Enterados del escape del general Critt y sus aliados, la coalición ah contratado a los mejores mercenarios del universo para su captura o destrucción.
 Tienen poco tiempo para apoderarse del nuevo planeta y hacerle frente a la coalición y a sus temibles mercenarios.
 
-## Notices
+## GDD
 
 1. Concepto
   - Concepto del juego
