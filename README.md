@@ -1,4 +1,4 @@
-# [Critters](2018.4.20f1)
+# [Critt: The Conquer] - Unity 2018.4.20f1
 
 Critt: El Conquistador, narrará una historia donde serás parte del ejército de Critters dirigidas por el General Critt, un Critter que le declaró la guerra a todo el universo y trató de conquistarlo; varias razas se unieron y crearon una coalición que logró diezmar sus intenciones. Finalmente tu, el general Critt y su tropa élite, fueron capturados y llevados a una prisión espacial de la cual lograron escapar. El general Critt guió la nave de escape a lo más recóndito del universo, encontrando un planeta lleno de recursos donde podrán volver a establecer una colonia y reorganizar los planes de conquista. Ese planeta es llamado "Tierra".
 Enterados del escape del general Critt y sus aliados, la coalición ah contratado a los mejores mercenarios del universo para su captura o destrucción.
