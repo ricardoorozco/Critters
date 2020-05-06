@@ -6,6 +6,7 @@ public class Destroy : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Activated");
         Destroy(other.gameObject);
     }
 }

@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Control/SelectProfile.unity
     guid: b148067415b768f4a9600cf968e95fe9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Vendors/MazeGeneratorRichardHawkes/Sandbox.unity
     guid: 03ace6102d521654d82119a05e91f81e
   - enabled: 1
@@ -41,3 +41,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Misc/Credits.unity
     guid: 70723797a3288ce46ac42ece19c809d6
+  m_configObjects: {}
