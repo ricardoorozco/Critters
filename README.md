@@ -1,30 +1,64 @@
-# [GitHub for Unity](https://unity.github.com)
+# [Critt: The Conquer] - Unity 2018.4.20f1
 
-The GitHub for Unity extension brings [Git](https://git-scm.com/) and GitHub into [Unity](https://unity3d.com/), integrating source control into your work with friendly and accessible tools and workflows.
+Critt: El Conquistador, narrará una historia donde serás parte del ejército de Critters dirigidas por el General Critt, un Critter que le declaró la guerra a todo el universo y trató de conquistarlo; varias razas se unieron y crearon una coalición que logró diezmar sus intenciones. Finalmente tu, el general Critt y su tropa élite, fueron capturados y llevados a una prisión espacial de la cual lograron escapar. El general Critt guió la nave de escape a lo más recóndito del universo, encontrando un planeta lleno de recursos donde podrán volver a establecer una colonia y reorganizar los planes de conquista. Ese planeta es llamado "Tierra".
+Enterados del escape del general Critt y sus aliados, la coalición ah contratado a los mejores mercenarios del universo para su captura o destrucción.
+Tienen poco tiempo para apoderarse del nuevo planeta y hacerle frente a la coalición y a sus temibles mercenarios.
 
-You can reach the team right here by opening a [new issue](https://github.com/github-for-unity/Unity/issues/new). You can also tweet at [@GitHubUnity](https://twitter.com/GitHubUnity)
+## GDD
 
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/github-for-unity/Unity?branch=master&svg=true)](https://ci.appveyor.com/project/github-windows/unity)
+1. Concepto
+  - Concepto del juego
+    - Juego donde debes conquistar el planeta tierra en el menor tiempo posible, eliminando la raza humana por completo y evitando ser desintegrado por los enemigos
+  - Características principales
+    - Juego de dispositivos móviles que hace uso del acelerómetro
+    - Monedas de recompensa por finalizar el laberinto (casa)
+    - Con las monedas se podrá comprar servicios y accesorios
+      - Servicios: Revivir
+      - Accesorios: Skins de Critters y elementos fashion
+    - Modo Historia (Vista TOP): Avanzar en la conquista del planeta, consiguiendo ser distinguido y alabado por los otros Critters, al punto de poder desafiar al actual General Critt y tomar el mando de la conquista universal. En niveles básicos, los civiles que habitan las casas al ver al critter huirán, en los demás niveles, al devorar al primer civil, los demás se armaran y sólo podrán ser eliminados por la espalda.
+    - Modo Multijugador (Vista TOP): 5 personas entran a un laberinto, tomando los roles aleatoriamente de 1 Critter, 3 Civiles, 1 Mercenario
+      - Critter: debe devorar a todos los civiles y escapar del laberinto (casa), antes que el mercenario lo destruya o antes que el cronómetro llegue a cero si devora al mercenario. El Critter podra devorar al mercenario si lo atrapa por la espalda.
+      - Civiles: debe escapar del Critter hasta que el Mercenario lo destruya o el cronómetro llegue a cero si el Mercenario es devorado.
+      - Mercenario: Debe destruir al Critter antes que devore a todos los civiles
+  - Género
+    - Acción - RPG
+  - Público dirigido
+    - 13+
+    - Personas que sientan nostalgia al ver la referencia a la película de los 80&#39;s
+  - Mecánicas de juego
+    - Como critter, se avanza con el acelerómetro, rodando por todo el laberinto, comiendo automáticamente a los civiles y buscando la salida para evitar a los mercenarios
+    - Como civil, se avanza con jostick, caminando al no estar en estado de alerta y corriendo al estarlo
+    - Como mercenario, se avanza con jostick, solo corriendo y disparando automáticamente si el critter entra en su rango de tiro
+  - Flujo de juego
+    - Diagrama de flujo
+      - [http://prntscr.com/h1k31i](http://prntscr.com/h1k31i)
+    - Introducción al juego
 
-## Notices
+Critt: El Conquistador, narrará una historia donde serás parte del ejército de Critters dirigidas por el General Critt, un Critter que le declaró la guerra a todo el universo y trató de conquistarlo; varias razas se unieron y crearon una coalición que logró diezmar sus intenciones. Finalmente tu, el general Critt y su tropa élite, fueron capturados y llevados a una prisión espacial de la cual lograron escapar. El general Critt guió la nave de escape a lo más recóndito del universo, encontrando un planeta lleno de recursos donde podrán volver a establecer una colonia y reorganizar los planes de conquista. Ese planeta es llamado &quot;Tierra&quot;.
 
-Please refer to the [list of known issues](https://github.com/github-for-unity/Unity/issues?q=is%3Aissue+is%3Aopen+label%3Abug), and make sure you have backups of your work before trying it out.
+Enterados del escape del general Critt y sus aliados, la coalición ah contratado a los mejores mercenarios del universo para su captura o destrucción.
 
-From version 0.19 onwards, the location of the plugin has moved to `Assets/Plugins/GitHub`. If you have version 0.18 or lower, you need to delete the `Assets/Editor/GitHub` folder before you install newer versions. You should exit Unity and delete the folder from Explorer/Finder, as Unity will not unload native libraries while it's running. Also, remember to update your `.gitignore` file.
+Tienen poco tiempo para apoderarse del nuevo planeta y hacerle frente a la coalición y a sus temibles mercenarios.
 
-## Building and Contributing
+1.
+  - Personajes
+    - Protagonista
+      - Critter de la fuerza élite que desea sobresalir en la conquista del universo y ser el líder con el título &quot;General Critt&quot;
+    - Antagonista
+      - Mercenarios contratado por la alianza galáctica.
 
-Please read the [How to Build](docs/contributing/how-to-build.md) document for information on how to build GitHub for Unity.
-
-The [CONTRIBUTING.md](CONTRIBUTING.md) document will help you get setup and familiar with the source. The [documentation](docs/) folder also contains more resources relevant to the project.
-
-If you're looking for something to work on, check out the [up-for-grabs](https://github.com/github-for-unity/Unity/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs) label.
-
-## How to use
-
-The [quick guide to GitHub for Unity](docs/using/quick-guide.md)
-
-More [in-depth information](docs/readme.md)
+1. Arte
+  - Estilo
+    - Cartoon 3D
+  - Concepts
+    - Personaje:
+      - [http://prntscr.com/h1k6gv](http://prntscr.com/h1k6gv)
+    - Mercenarios:
+      - El personaje azul [https://www.assetstore.unity3d.com/en/#!/content/84232](https://www.assetstore.unity3d.com/en/#!/content/84232)
+    - Civiles:
+      - [https://www.assetstore.unity3d.com/en/#!/content/100937](https://www.assetstore.unity3d.com/en/#!/content/100937)
+    - Laberintos/Casas:
+      - [https://img2.cgtrader.com/items/627191/03a6cb98c8/large/cartoon-house-interior-3d-model-low-poly-max-fbx.png](https://img2.cgtrader.com/items/627191/03a6cb98c8/large/cartoon-house-interior-3d-model-low-poly-max-fbx.png)
 
 ## License
 
